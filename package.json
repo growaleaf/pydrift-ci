@@ -1,0 +1,36 @@
+{
+  "name": "pydrift-ci",
+  "version": "1.0.0",
+  "description": "Fail CI when your Python version claims disagree: .python-version, pyproject.toml's requires-python, every Dockerfile's FROM python:X.Y, and every GitHub Actions workflow's python-version all checked against each other.",
+  "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "pydrift-ci": "./cli.js"
+  },
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/growaleaf/pydrift-ci.git"
+  },
+  "keywords": [
+    "python",
+    "version",
+    "pyenv",
+    "pyproject",
+    "docker",
+    "github-actions",
+    "ci",
+    "continuous-integration",
+    "drift"
+  ],
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
